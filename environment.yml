@@ -1,0 +1,17 @@
+name: nl-processors
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - datalad
+  - tqdm
+  - python
+  - matplotlib
+  - ipython
+  - pip
+  - jupyterlab
+  - pytorch
+  - torchvision
+  - pandas
+  - numpy
