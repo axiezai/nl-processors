@@ -15,3 +15,5 @@ dependencies:
   - torchvision
   - pandas
   - numpy
+  - pip:
+    - natsort
