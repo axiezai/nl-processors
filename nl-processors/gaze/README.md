@@ -8,7 +8,13 @@ Things to try
 
 
 ### In this folder:
-   - `eyegaze_utils.py` - Provided by the BIDS dataset in `sourcedata/code/`, stitch eyegaze segments data back to consecutive time series for full movie. Intersegmen overlap is removed.
+   - `eyegaze_utils.py` - Provided by the BIDS dataset in `sourcedata/code/`, stitch eyegaze segments data back to consecutive time series for full movie. Inter-segmen overlap is removed.
+      - Modify the OSF/google drive file directory to match BIDS:
+         ```bash
+         # Example for sub-01's data:
+         # cd /DATASET/ROOT/DIR first
+         mkdir -p sub-01/ses-movie/func/; mv sub-01/sub-01_* $_
+         ```
       - Usage (`python2.7`): 
          ```python
          import os
