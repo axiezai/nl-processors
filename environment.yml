@@ -15,5 +15,8 @@ dependencies:
   - torchvision
   - pandas
   - numpy
+  - scipy
   - pip:
     - natsort
+    - nibabel
+    - git+https://github.com/PyMVPA/PyMVPA
