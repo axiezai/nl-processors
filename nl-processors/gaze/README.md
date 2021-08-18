@@ -8,6 +8,7 @@ Things to try
 
 
 ### In this folder:
+   - `colab_classify_gaze.ipynb` - Eye gaze classification bi-LSTM notebook.
    - `eyegaze_utils.py` - Provided by the BIDS dataset in `sourcedata/code/`, stitch eyegaze segments data back to consecutive time series for full movie. Inter-segmen overlap is removed.
       - Modify the OSF/google drive file directory to match BIDS:
          ```bash
